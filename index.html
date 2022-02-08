@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <title>Regine's Portfolio</title>
+</head>
+<body>
+  <!--Navigation Bar-->
+  <header class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper grey darken-3">
+        <a href="#!" class="brand-logo">Regine</a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#aboutme">About</a></li>
+          <li><a href="#projs">Projects</a></li>
+          <li><a href="#link">Links</a></li>
+        </ul>
+      </div>
+    </nav>
+  
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="#">About</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">Links</a></li>
+    </ul>
+  </header>
+
+  <!--Background Image-->
+  <div class="img-section">
+    <img class="portrait"src="img/image.jpg"/>
+  </div>
+
+  <!--Main Content-->
+  <div class="content-section">
+    <div class="greeting">
+      <h1 class="white-text">Regine Delmo </h1>
+    </div>
+    <h5>
+      <div class="typing-demo">
+        Programming. Graphic Design. Digital Art.
+      </div>
+    </h5>
+    <div class="intro">
+      <p>Hello! I am a 2nd year college student at Ateneo de Davao University. I have knowledge in Python, Java, C++, HTML, Javascript, and mySQL queries. I am currently practicing CSS Frameworks, particularly Materialize CSS, which is what I use in making this portfolio. </p>
+    </div>
+    <div class="contact">
+      <div class="card pink darken-3">
+        <div class="card-content">
+          <span class="card-title activator white-text">Contact Me<i class="material-icons right">keyboard_arrow_up</i></span>
+        </div>
+        <div class="card-reveal grey darken-3">
+          <span class="card-title white-text">Email: notregine@gmail.com<i class="material-icons right">keyboard_arrow_down</i></span>
+        </div>
+      </div>
+    </div>
+    <div class="about" id="aboutme">
+      <h2 class="white-text">About Me</h2>
+      <p>I have been practicing coding for two years now. My favorite programming language is Python because it is easy to read and it is dynamic and portable. I also like to do video editing and graphic designing sometimes when I am feeling creative and ideas are overflowing in my mind. I have been using Adobe Premiere Pro for video editing and Adobe Photoshop for graphic designing. Sometimes, I also do digital drawing using my iPad just for fun, I drew my three dogs when I was still starting.</p>
+      <table>
+        <tr>
+          <td><h6>AGE:</h6></td>
+          <td><p>20</p></td>
+        </tr>
+        <tr>
+          <td><h6>PHONE:</h6></td>
+          <td><p>+(63) 936 9518 154</p></td>
+        </tr>
+        <tr>
+          <td><h6>EMAIL:</h6></td>
+          <td><p>mrsdelmo@addu.edu.ph</p></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <div class="cont-section">
+    <div class="known-langs">
+      <h6>KNOWN PROGRAMMING LANGUAGES:</h6>
+      <div class="icn-pics">
+        <img class="icns" src="img/py.png">
+        <img class="icns" src="img/c++.png">
+        <img class="icns" src="img/java.png">
+        <img class="icns-1" src="img/hcj.png">
+      </div>
+    </div>
+    <div class="projects" id="projs">
+      <h2 class="white-text">My Projects</h2>
+      <div class="row">
+        <div class="col s4">
+          <td><h4>SafeVault</h4></td>
+          <p class="flow-text">App Logo</p>
+          <img src="img/safevault.png" class="picz">
+          <p>SafeVault is an application that allows users to safely store and manage their passwords and pay online with temporary digital cards. It also has an auto-fill feature for users to have a seamless experience when shopping online.</p>
+          <img src="img/image18.jpg" class="picz">
+          <p>Given that SafeVault is a cross-platform application, it is more convenient for users to access their accounts anytime and anywhere they go, especially for users who are always on the go. Hence, this makes SafeVault a safe platform for users to have a hassle-free experience when shopping and paying online.</p>
+          <img src="img/image8.jpg" class="picz">
+        </div>
+        <div class="col s4 grey darken-3">
+          <td><h4>Designs</h4></td>
+          <p class="flow-text">Bootleg-style vintage shirts (K-pop)</p>
+          <img src="img/1.jpg" class="picz">
+          <img src="img/2.jpeg" class="picz">
+          <img src="img/3.jpeg" class="picz">
+          <img src="img/4.jpg" class="picz">
+        </div>
+        <div class="col s4">
+          <td><h4>Drawings</h4></td>
+          <p class="flow-text">Digital Art</p>
+          <img src="img/5.jpg" class="picz">
+          <img src="img/6.jpg" class="picz">
+          <img src="img/7.jpg" class="picz">
+          <img src="img/8.jpg" class="picz">
+        </div>
+      </div>
+    </div>
+    <div class="links" id="link">
+      <h2 class="white-text">My Links</h2>
+      <div class="links-in">
+        <img class="pics" src="img/in.png">
+        <p class="flow-text">Explore my LinkedIn account <a href="https://www.linkedin.com/in/reginedelmo/">here</a>.</p>
+        <img class="pics" src="img/git.png">
+        <p class="flow-text">Check out my GitHub profile <a href="https://github.com/sayitsjen">here</a>.</p>
+        <img class="pics" src="img/yt.png">
+        <p class="flow-text">Visit my YouTube channel <a href="https://www.youtube.com/channel/UCvhr7VRxKYtaYxvjpJsaJ4Q">here</a>.</p>
+      </div>
+    </div>
+  </div>
+
+  <!--Footer Bar-->
+  
+  <footer class="page-footer pink darken-3">
+    <div class="footer-copyright">
+      <div class="container">
+      © 2022 Regine Delmo
+      <a class="grey-text text-lighten-4 right" href="https://materializecss.com/about.html">Made With</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
